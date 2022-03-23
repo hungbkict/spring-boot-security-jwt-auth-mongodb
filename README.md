@@ -1,3 +1,5 @@
+Article here: [Spring Boot, MongoDB: JWT Authentication with Spring Security](https://www.bezkoder.com/spring-boot-jwt-auth-mongodb/)
+
 # Spring Boot, Spring Security, MongoDB - JWT Authentication & Authorization example
 
 - Appropriate Flow for User Signup & User Login with JWT Authentication
