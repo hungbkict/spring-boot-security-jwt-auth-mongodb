@@ -43,3 +43,19 @@ Run both Back-end & Front-end in one place:
 ```
 mvn spring-boot:run
 ```
+
+##Fix bug
+Khi gửi api signin báo lỗi 500 
+Xem server log thì thấy java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+
+[Xem guide ở đây](https://stackoverflow.com/questions/42966880/java-lang-noclassdeffounderror-javax-xml-bind-datatypeconverter)
+
+Add dependency để add class
+```java
+    
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+```
