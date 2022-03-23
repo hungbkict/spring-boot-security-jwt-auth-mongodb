@@ -44,7 +44,7 @@ Run both Back-end & Front-end in one place:
 mvn spring-boot:run
 ```
 
-##Fix bug
+## Fix bug
 Khi gửi api signin báo lỗi 500 
 Xem server log thì thấy java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
 
